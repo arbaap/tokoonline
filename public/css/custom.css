@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.navbar{
+        padding-top: 20px;
+    }
+
+.navbar-brand, .nav-link {
+    color: black !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0ba1dc;
+    margin: auto;
+    margin-bottom: -8px;
+    width: 50%;
+    padding-top: 5px;
+}
+
+.slider img {
+    border-radius: 20px;
+    height: 500px;
+}
+
+.carousel-caption .display-4 {
+    font-family: 'Viga';
+    font-weight: 200;
+    font-size: 2.6em;
+    margin-top: 100px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+.carousel-caption .lead {
+    font-family: 'Viga';
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.carousel-caption hr{
+	border-color: #F05F40;
+	width: 70px;
+	border-width: 3px;
+}
+.carousel-caption .btn {
+    font-family: 'Viga';
+    background-color: #F05F40;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	border: none;
+	border-radius: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-top: 20px;
+}
+.pilih-outdoor img {
+    max-height: 100px;
+}
+
+.pilih-outdoor .card {
+    border-radius: 15px;
+}
+
+.products .card {
+    border-radius: 15px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb .active {
+    font-weight: bold;
+    color: black;
+}
+
+.btn-dark {
+    border-radius: 10px;
+}
+
+.gambar-product {
+    background-color: transparent;
+    border-width: 0;
+    border-radius: 20px;
+}
+
+
+
