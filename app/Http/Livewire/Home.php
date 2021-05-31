@@ -4,7 +4,7 @@ namespace App\Http\Livewire;
 
 use App\Outdoor;
 use App\Product;
-use App\Slider;
+use App\slider;
 use Livewire\Component;
 
 class Home extends Component
