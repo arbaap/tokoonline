@@ -30,7 +30,6 @@
                             <td>No.</td>
                             <td>Gambar</td>
                             <td>Keterangan</td>
-                            <td>Name Set</td>
                             <td>Jumlah</td>
                             <td>Harga</td>
                             <td><strong>Total Harga</strong></td>
